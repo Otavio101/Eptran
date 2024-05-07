@@ -1,0 +1,15 @@
+.entrar{
+    background-color: rgb(8, 185, 8);
+    color: aliceblue;
+    border-radius: 30px;
+    border: 10px solid aliceblue;
+}
+
+.paginaEntrar{
+    background-color: rgb(138, 196, 247);
+}
+
+.tituloDaPagina{
+    background-color: rgb(181, 214, 243);
+    width: 100%;
+}
