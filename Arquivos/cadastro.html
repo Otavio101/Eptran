@@ -1,22 +1,99 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educação no Trânsito</title>
     <link rel="stylesheet" href="../Arquivos/style.css">
 </head>
+
 <body class="bodyCadastro">
     <div class="cadastro">
-        <h1>Página de Cadastro</h1>
+        <h1 class="paginaCadastro">Página de Cadastro</h1>
         <div class="nomeCadastro">
             <p>Nome:</p>
             <div class="primeiroNomeCadastro">
-                <input type="text">Primeiro Nome
+                <input type="text" id="primeiroNome">
+                <label for="primeiroNome"></label>Primeiro Nome
             </div>
-<div class=""></div>
+            <div class="sobrenomeCadastro">
+                <input type="text" id="sobrenome">
+                <label for="sobrenome"></label>Sobrenome
+            </div>
         </div>
-        
+        <div class="emailCadastro">
+            <p>Email:</p>
+            <div class="caixaEmailCadastro">
+                <input type="text" placeholder="ex: name@example.com">
+            </div>
+        </div>
+        <div class="senhaCadastro">
+            <p>Senha:</p>
+            <div class="caixaSenhaCadastro">
+                <input type="text">
+            </div>
+        </div>
+        <div class="escolaridadeCadastro">
+            <p>Escolaridade:</p>
+            <div class="caixaEscolaridadeCadastro">
+                <select name="escolaridade" id="escolaridade">
+                    <option disabled selected>Escolha um grau de escolaridade</option>
+                    <option>Anos Iniciais</option>
+                    <option>Anos Finais</option>
+                    <option>Ensino Médio</option>
+                </select>
+            </div>
+        </div>
+        <div class="telefoneCadastro">
+            <p>Telefone:</p>
+            <div class="codigoTelefoneCadastro">
+                <input type="text" id="codigoTelefone">
+                <label for="codigoTelefone"></label>Código
+            </div>
+            <div class="numeroTelefoneCadastro">
+                <input type="text" id="numeroTelefone">
+                <label for="numeroTelefone"></label>Número de Telefone
+            </div>
+        </div>
+        <div class="enderecoCadastro">
+            <p>Endereço:</p>
+            <div class="caixaEnderecoCadastro">
+                <input type="text" id="endereco">
+                <label for="endereco"></label>CEP
+            </div>
+        </div>
+        <div class="generoCadastro">
+            <p>Gênero:</p>
+            <div class="caixaGeneroCadastro">
+                <select name="genero" id="genero">
+                    <option disabled selected>Qual seu gênero?</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Outro</option>
+                    <option>Prefiro não informar</option>
+                </select>  
+            </div>
+        </div>
+        <div class="dataNascimentoCadastro">
+            <p>Data de <br> Nascimento:</p>
+            <div class="dia">
+                <input type="text" id="diaData">
+                <label for="diaData"></label>Dia
+            </div>
+            <div class="mes">
+                <input type="text" id="mesData">
+                <label for="diaData"></label>Mês
+            </div>
+            <div class="dia">
+                <input type="text" id="anoData">
+                <label for="anoData"></label>Ano
+            </div>
+        </div>
+        <div class="centro">
+            <button class="criarConta"></button>
+        </div>
     </div>
-    
+
 </body>
+
 </html>
