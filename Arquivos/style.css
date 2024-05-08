@@ -77,6 +77,32 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.ferroPalacaCategorias{
+    width: 25%;
+    height: 10px;
+    background-color: rgb(129, 129, 129);
+    margin-top: 30%;
+    margin-left: -10px;
+}
+
+.placaPergunta{
+    background-color: rgb(7, 160, 7);
+    width: 60%;
+    height: 120px;
+    margin-left: 22%;
+    margin-top: -60px;
+    border-radius: 10px;
+    border: 7px solid aliceblue;
+}
+
+.perguntaCategoria{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    font-size: x-large;
+}
+
 
 
 .bodyBemvindo{
