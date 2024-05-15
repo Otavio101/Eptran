@@ -348,5 +348,15 @@
 }
 
 .criarConta{
-    color: blue;
+   margin-top: 70px;
+    background-color: rgb(117, 149, 218);
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    border-color: transparent;
+}
+.logoPrefeitura img{
+    margin-top: 100px;
+    width: 70px;
 }
