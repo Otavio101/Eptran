@@ -237,7 +237,7 @@
 .p1bemvindo{
     font-size: 16px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 22px;
     font-family: arial;
 
 }
@@ -245,7 +245,7 @@
 .p2bemvindo{
     font-size: 16px;
     margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 60px;
     font-family: arial;
 
 }
@@ -256,6 +256,10 @@
     margin-left: 40px;
     font-family: arial;
 
+}
+
+#ta{
+    margin-top: 20%;
 }
 
 .p4bemvindo{
@@ -286,15 +290,33 @@
     text-align: center;
 }
 
+.titulochapisco2{
+    color: #23485e;
+    font-family: arial;
+    font-size: 60px;
+    text-align: center;
+}
+
 .img{
     width: 24%;
     height: 150px;
+}
+
+.img2{
+    width: 24%;
+    height: 150px;
+    margin-left: 30px;
 }
 
 .centro{
     align-items: center;
     text-align: center;
     align-content: center;
+}
+
+.box{
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 .botaoredondo {
@@ -450,5 +472,15 @@
 }
 
 .criarConta{
-    color: blue;
+   margin-top: 70px;
+    background-color: rgb(117, 149, 218);
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    border-color: transparent;
+}
+.logoPrefeitura img{
+    margin-top: 100px;
+    width: 70px;
 }
