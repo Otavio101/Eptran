@@ -332,3 +332,10 @@
 .criarConta{
     color: blue;
 }
+
+.backfundo{
+    background-color: #a0d5fb;
+    width: 200px;
+    height: 60px;
+
+}
