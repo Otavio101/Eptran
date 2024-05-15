@@ -146,7 +146,7 @@
 
 }
 
-.bodyBemvindo{
+.bodyBemvindo, .bodyEnsinoMedio{
     background-color: #a0d5fb;
     margin-top: 0%;
     margin-left: 0%;
@@ -359,4 +359,38 @@
 .logoPrefeitura img{
     margin-top: 100px;
     width: 70px;
+}
+
+.p1ensinoMedio{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: arial;
+}
+.logoPrefeituraEnsinoMedio{
+    width: 100px;
+}
+
+.h2EnsinoMedio{
+    font-family: arial;
+    font-size: larger;
+}
+
+.textoEnsinoMedio{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.p2EnsinoMedio{
+    font-family: arial;
+}
+
+.carroEnsinoMedio{
+    margin-top: 300px;
+    width: 400px;
 }
