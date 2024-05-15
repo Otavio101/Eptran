@@ -150,7 +150,7 @@
 
 }
 
-.bodyBemvindo, .bodypaginajogo1{
+.bodyBemvindo{
     background-color: #a0d5fb;
     margin-top: 0%;
     margin-left: 0%;
@@ -363,39 +363,4 @@
 .logoPrefeitura img{
     margin-top: 100px;
     width: 70px;
-}
-
-.backfundo{
-    background-color: #315874;
-    width: 200px;
-    height: 60%px;
-
-}
-
-.fundoxy{
-    background-color: #315874;
-}
-
-.divazul{
-    background-color: aqua;
-    width: 100%;
-    height: 350%;
-    margin-top: 30%;
-}
-
-.joinvas{
-    width: 70%;
-    height: 100%;
-    margin-top: 15%;
-    
-}
-
-.textoInt{
- text-align: center;
- margin-top: 10%;
-
-}
-
-.pa{
-    text-align: center;
 }
