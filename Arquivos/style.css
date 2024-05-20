@@ -172,9 +172,11 @@
 }
 
 .seriesIniciais{
-    margin-left: 20px;
+    margin-left: 30px;
     position: absolute;
     margin-top: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .primeiroQuinto{
@@ -184,9 +186,11 @@
 }
 
 .seriesFinais{
-    margin-left: 20px;
+    margin-left: 35px;
     position: absolute;
     margin-top: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .SextoNono{
@@ -196,9 +200,11 @@
 }
 
 .ensinoMedio{
-    margin-left: 20px;
+    margin-left: 30px;
     position: absolute;
     margin-top: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .primeiroTerceiro{
@@ -222,6 +228,42 @@
     margin-top: 10px;
     margin-left: 25%;
     border-radius: 10px;
+}
+
+.placaSenha{
+    background-color: rgb(255, 183, 29);
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: 7px solid aliceblue;
+    margin-top: 300px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.senhaEsqueceu{
+    margin-left: 20px;
+}
+
+.informeEmail{
+    margin-left: 10px;
+}
+
+.senha{
+    margin-left: 10px;
+    width: 85%;
+}
+
+.enviar{
+    background-color: rgb(57, 137, 241);
+    border-radius: 30px;
+    color: aliceblue;
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bodyBemvindo{
