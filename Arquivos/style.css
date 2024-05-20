@@ -1,4 +1,4 @@
-.entrar{
+.entrar {
     background-color: rgb(8, 185, 8);
     color: aliceblue;
     border-radius: 30px;
@@ -6,15 +6,16 @@
     margin-top: 200px;
 }
 
-.EducaTrânsito{
+.EducaTrânsito {
     margin-left: 20%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.paginaEntrar{
+
+.paginaEntrar {
     background-color: rgb(138, 196, 247);
 }
 
-.tituloDaPagina{
+.tituloDaPagina {
     background-color: rgb(181, 214, 243);
     margin-left: -10px;
     margin-right: -10px;
@@ -22,13 +23,13 @@
     height: 50px;
 }
 
-.EducacaoTrânsito{
+.EducacaoTrânsito {
     margin-left: 10px;
     margin-top: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.botaoDeEntrar{
+.botaoDeEntrar {
     background-color: rgb(57, 137, 241);
     border-radius: 30px;
     color: aliceblue;
@@ -39,25 +40,26 @@
     margin-bottom: 10px;
 }
 
-.esqueceuSenha{
+.esqueceuSenha {
     color: aliceblue;
-    margin-left: 35%; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    margin-left: 35%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.NãoPossuiConta{
+.NãoPossuiConta {
     color: aliceblue;
     margin-left: 25%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.ferroDaPlaca{
+.ferroDaPlaca {
     width: 10%;
     height: 200px;
     background-color: rgb(129, 129, 129);
     margin-left: 45%;
 }
-.asfalto{
+
+.asfalto {
     background-color: rgb(66, 65, 65);
     height: 75px;
     margin-left: -10px;
@@ -65,19 +67,19 @@
     margin-bottom: -10px;
 }
 
-.caixaTexto{
+.caixaTexto {
     margin-left: 10%;
     width: 80%;
     height: 23px;
-    background-color:  rgb(90, 233, 90);
+    background-color: rgb(90, 233, 90);
 }
 
-.emailSenha{
+.emailSenha {
     margin-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.ferroPalacaCategorias{
+.ferroPalacaCategorias {
     width: 25%;
     height: 15px;
     background-color: rgb(129, 129, 129);
@@ -85,7 +87,7 @@
     margin-left: -10px;
 }
 
-.placaPergunta{
+.placaPergunta {
     background-color: rgb(7, 160, 7);
     width: 60%;
     height: 120px;
@@ -95,7 +97,7 @@
     border: 7px solid aliceblue;
 }
 
-.perguntaCategoria{
+.perguntaCategoria {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
     text-align: center;
@@ -103,7 +105,7 @@
     font-size: x-large;
 }
 
-.semaforo{
+.semaforo {
     width: 13%;
     height: 100px;
     background-color: #172229;
@@ -113,16 +115,16 @@
     position: relative;
 }
 
-.ferroSemaforo{
+.ferroSemaforo {
     width: 19%;
     height: 15px;
-    background-color:  rgb(129, 129, 129);
+    background-color: rgb(129, 129, 129);
     margin-left: 83%;
     margin-top: -50px;
     position: relative;
 }
 
-.semaforoVermelho{
+.semaforoVermelho {
     width: 35%;
     height: 20px;
     background-color: red;
@@ -132,7 +134,7 @@
     position: absolute;
 }
 
-.semaforoAmarelo{
+.semaforoAmarelo {
     width: 35%;
     height: 20px;
     background-color: rgb(255, 230, 0);
@@ -142,7 +144,7 @@
     position: absolute;
 }
 
-.semaforoVerde{
+.semaforoVerde {
     width: 35%;
     height: 20px;
     background-color: rgb(0, 255, 42);
@@ -152,7 +154,7 @@
     position: absolute;
 }
 
-.madeiraPlaca{
+.madeiraPlaca {
     width: 20px;
     height: 300px;
     background-color: rgb(153, 105, 50);
@@ -161,7 +163,7 @@
     margin-top: 150px;
 }
 
-.placaLaranja{
+.placaLaranja {
     width: 40%;
     height: 60px;
     background-color: orange;
@@ -171,42 +173,43 @@
     position: relative;
 }
 
-.seriesIniciais{
+.seriesIniciais {
     margin-left: 20px;
     position: absolute;
     margin-top: 10px;
 }
 
-.primeiroQuinto{
+.primeiroQuinto {
     margin-left: 30px;
     position: absolute;
     margin-top: 30px;
 }
 
-.seriesFinais{
+.seriesFinais {
     margin-left: 20px;
     position: absolute;
     margin-top: 10px;
 }
 
-.SextoNono{
+.SextoNono {
     margin-left: 30px;
     position: absolute;
     margin-top: 30px;
 }
 
-.ensinoMedio{
+.ensinoMedio {
     margin-left: 20px;
     position: absolute;
     margin-top: 10px;
 }
 
-.primeiroTerceiro{
+.primeiroTerceiro {
     margin-left: 30px;
     position: absolute;
     margin-top: 30px;
 }
-.placaAmarela{
+
+.placaAmarela {
     width: 40%;
     height: 60px;
     background-color: rgb(255, 230, 0);
@@ -215,7 +218,7 @@
     border-radius: 10px;
 }
 
-.placaVerde{
+.placaVerde {
     width: 40%;
     height: 60px;
     background-color: rgb(115, 255, 0);
@@ -224,17 +227,17 @@
     border-radius: 10px;
 }
 
-.bodyBemvindo{
+.bodyBemvindo {
     background-color: rgb(68, 144, 206);
 }
 
-.azulclaro{
+.azulclaro {
     background-color: #bce4fc;
     width: 100%;
     height: 60px;
 }
 
-.p1bemvindo{
+.p1bemvindo {
     font-size: 16px;
     margin-left: 10px;
     margin-top: 22px;
@@ -242,7 +245,7 @@
 
 }
 
-.p2bemvindo{
+.p2bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 60px;
@@ -250,7 +253,7 @@
 
 }
 
-.p3bemvindo{
+.p3bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 40px;
@@ -258,11 +261,11 @@
 
 }
 
-#ta{
+#ta {
     margin-top: 20%;
 }
 
-.p4bemvindo{
+.p4bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 40px;
@@ -270,7 +273,9 @@
 
 }
 
-.bodyBemvindo, .bodyEnsinoMedio, .bodypaginajogo1{
+.bodyBemvindo,
+.bodyEnsinoMedio,
+.bodypaginajogo1 {
     background-color: #a0d5fb;
     margin-top: 0%;
     margin-left: 0%;
@@ -279,36 +284,36 @@
     height: 100px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
-    
-.titulochapisco{
+
+.titulochapisco {
     color: #23485e;
     font-family: arial;
     font-size: 60px;
     text-align: center;
 }
 
-.titulochapisco2{
+.titulochapisco2 {
     color: #23485e;
     font-family: arial;
     font-size: 60px;
     text-align: center;
 }
 
-.img{
+.img {
     width: 24%;
     height: 150px;
 }
 
-.img2{
+.img2 {
     width: 24%;
     height: 150px;
     margin-left: 30px;
 }
 
-.text{
+.text {
     width: 200px;
     height: 200px;
     text-align: center;
@@ -316,13 +321,13 @@
     margin-left: 100px;
 }
 
-.centro{
+.centro {
     align-items: center;
     text-align: center;
     align-content: center;
 }
 
-.centro2{
+.centro2 {
     align-items: center;
     text-align: center;
     align-content: center;
@@ -330,32 +335,32 @@
     height: 250px;
 }
 
-.placaBicicleta{
+.placaBicicleta {
     width: 20%;
     height: 200px;
     transform: rotate(10deg);
     margin-left: -20px;
 }
 
-.latrel{
+.latrel {
     width: 60%;
     transform: rotate(0deg);
     margin-top: 20px;
 }
 
-.estrada2{
+.estrada2 {
     width: 800px;
     margin-top: -90px;
 }
 
-.cone{
+.cone {
     width: 30%;
     margin-left: 260px;
     margin-top: -200px;
 }
 
 
-.box{
+.box {
     margin-top: 40px;
     margin-left: 10px;
 }
@@ -364,9 +369,9 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: a0d5fb; 
+    background-color: a0d5fb;
     border: 5px solid black;
-    color: #fff; 
+    color: #fff;
     font-size: 24px;
     cursor: pointer;
     justify-content: center;
@@ -375,29 +380,35 @@
     margin-top: 100px;
 }
 
-.saveimg{
+.saveimg {
     width: 84%;
 }
 
-.estrada{
+.estrada {
     width: 800px;
     position: fixed;
 }
 
-.paginaCadastro{
+.paginaCadastro {
     text-align: center;
     font-family: 'Cambria';
     margin-top: 40px;
     font-size: x-large;
 }
 
-.nomeCadastro, .emailCadastro, .senhaCadastro, .escolaridadeCadastro, .telefoneCadastro, .enderecoCadastro, .generoCadastro, .dataNascimentoCadastro{
+.nomeCadastro,
+.emailCadastro,
+.senhaCadastro,
+.telefoneCadastro,
+.enderecoCadastro,
+.generoCadastro,
+.dataNascimentoCadastro {
     display: flex;
     margin-left: 30px;
     font-family: arial;
-    }
-    
-.primeiroNomeCadastro{
+}
+
+.primeiroNomeCadastro {
     display: flex;
     flex-direction: column;
     margin-left: 65px;
@@ -407,9 +418,10 @@
     color: rgb(173, 172, 172);
     font-family: arial;
     font-size: small;
+    border-radius: 20px;
 }
 
-.sobrenomeCadastro{
+.sobrenomeCadastro {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -421,7 +433,7 @@
     font-size: small;
 }
 
-.caixaEmailCadastro{
+.caixaEmailCadastro {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
@@ -430,7 +442,7 @@
     height: auto;
 }
 
-.caixaSenhaCadastro{
+.caixaSenhaCadastro {
     display: flex;
     flex-direction: column;
     margin-left: 65px;
@@ -439,7 +451,8 @@
     height: auto;
 }
 
-.caixaEscolaridadeCadastro{
+
+.caixaTelefoneCadastro {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -448,15 +461,7 @@
     height: auto;
 }
 
-.caixaTelefoneCadastro{
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    width: 225px;
-    height: auto;
-}
-.codigoTelefoneCadastro{
+.codigoTelefoneCadastro {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
@@ -468,7 +473,7 @@
     font-size: small;
 }
 
-.numeroTelefoneCadastro{
+.numeroTelefoneCadastro {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -479,7 +484,8 @@
     font-family: arial;
     font-size: small;
 }
-.caixaEnderecoCadastro{
+
+.caixaEnderecoCadastro {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
@@ -491,7 +497,7 @@
     font-size: small;
 }
 
-.caixaGeneroCadastro{
+.caixaGeneroCadastro {
     margin-left: 55px;
     display: flex;
     flex-direction: column;
@@ -500,7 +506,9 @@
     height: auto;
 }
 
-.dia, .mes, .ano{
+.dia,
+.mes,
+.ano {
     display: flex;
     flex-direction: column;
     margin-left: 25px;
@@ -512,21 +520,25 @@
     font-size: small;
 }
 
-.criarConta{
-   margin-top: 70px;
+.criarConta {
+    margin-top: 70px;
     background-color: rgb(117, 149, 218);
     width: 100px;
     height: 30px;
     border-radius: 50px;
     color: white;
-    border-color: transparent;
-}
-.logoPrefeitura img{
-    margin-top: 100px;
-    width: 70px;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6p rgba(0, 0, 0, 0.1);
 }
 
-.joinvas{
-    width: 20%;
-    
+.criarConta:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.6);
+}
+
+
+.logoPrefeitura img {
+    margin-top: 100px;
+    width: 70px;
 }
