@@ -173,10 +173,17 @@
     position: relative;
 }
 
+<<<<<<< HEAD
+.seriesIniciais{
+    margin-left: 30px;
+=======
 .seriesIniciais {
     margin-left: 20px;
+>>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
     position: absolute;
     margin-top: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .primeiroQuinto {
@@ -185,10 +192,17 @@
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
+.seriesFinais{
+    margin-left: 35px;
+=======
 .seriesFinais {
     margin-left: 20px;
+>>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
     position: absolute;
     margin-top: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .SextoNono {
@@ -197,10 +211,17 @@
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
+.ensinoMedio{
+    margin-left: 30px;
+=======
 .ensinoMedio {
     margin-left: 20px;
+>>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
     position: absolute;
     margin-top: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .primeiroTerceiro {
@@ -227,7 +248,47 @@
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
+.placaSenha{
+    background-color: rgb(255, 183, 29);
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: 7px solid aliceblue;
+    margin-top: 300px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.senhaEsqueceu{
+    margin-left: 20px;
+}
+
+.informeEmail{
+    margin-left: 10px;
+}
+
+.senha{
+    margin-left: 10px;
+    width: 85%;
+}
+
+.enviar{
+    background-color: rgb(57, 137, 241);
+    border-radius: 30px;
+    color: aliceblue;
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bodyBemvindo{
+=======
 .bodyBemvindo {
+>>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
     background-color: rgb(68, 144, 206);
 }
 
