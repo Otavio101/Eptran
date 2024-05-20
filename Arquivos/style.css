@@ -173,13 +173,8 @@
     position: relative;
 }
 
-<<<<<<< HEAD
-.seriesIniciais{
-    margin-left: 30px;
-=======
 .seriesIniciais {
     margin-left: 20px;
->>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
     position: absolute;
     margin-top: 10px;
     color: black;
@@ -192,13 +187,10 @@
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
-.seriesFinais{
-    margin-left: 35px;
-=======
+
+
 .seriesFinais {
     margin-left: 20px;
->>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
     position: absolute;
     margin-top: 10px;
     color: black;
@@ -211,13 +203,9 @@
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
-.ensinoMedio{
-    margin-left: 30px;
-=======
+
 .ensinoMedio {
-    margin-left: 20px;
->>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
+    margin-left: 30px;
     position: absolute;
     margin-top: 10px;
     color: black;
@@ -248,7 +236,6 @@
     border-radius: 10px;
 }
 
-<<<<<<< HEAD
 .placaSenha{
     background-color: rgb(255, 183, 29);
     width: 70%;
@@ -285,10 +272,7 @@
     margin-bottom: 10px;
 }
 
-.bodyBemvindo{
-=======
 .bodyBemvindo {
->>>>>>> e48e976c8f91f68a3870355ce27e2224acb726bd
     background-color: rgb(68, 144, 206);
 }
 
