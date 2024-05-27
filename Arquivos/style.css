@@ -1,23 +1,23 @@
-.entrar {
+.entrar {                                  
     background-color: rgb(8, 185, 8);
     color: aliceblue;
-    border-radius: 30px;
+    border-radius: 30px;             /*Placa verde da página de entrar na conta */
     border: 10px solid aliceblue;
     margin-top: 200px;
 }
 
 .EducaTrânsito {
-    margin-left: 20%;
+    margin-left: 20%;               /*Para o título ficar no meio da placa verde da página de entrar na conta*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .paginaEntrar {
-    background-color: rgb(138, 196, 247);
+    background-color: rgb(138, 196, 247); /* Cor de fundo padrão das páginas*/
 }
 
 .tituloDaPagina {
     background-color: rgb(181, 214, 243);
-    margin-left: -10px;
+    margin-left: -10px;                 /*Padrão de título das páginas*/
     margin-right: -10px;
     margin-top: -22px;
     height: 50px;
@@ -25,7 +25,7 @@
 
 .EducacaoTrânsito {
     margin-left: 10px;
-    margin-top: 22px;
+    margin-top: 22px;           /*Ajuste do título das páginas*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -34,7 +34,7 @@
     border-radius: 30px;
     color: aliceblue;
     width: 50%;
-    height: 40px;
+    height: 40px;           /*Estilo do botão de entar na conta*/
     margin-left: 25%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -69,13 +69,13 @@
 
 .caixaTexto {
     margin-left: 10%;
-    width: 80%;
+    width: 80%;         /*Caixa de texto da página de entrar na conta*/
     height: 23px;
     background-color: rgb(90, 233, 90);
 }
 
 .emailSenha {
-    margin-left: 20px;
+    margin-left: 20px;      /*Título de pedido email e de senha*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -91,7 +91,7 @@
     background-color: rgb(7, 160, 7);
     width: 60%;
     height: 120px;
-    margin-left: 22%;
+    margin-left: 22%;       /*Placa que pergunta ao usuário e qual categoria ele se encaixa*/
     margin-top: -60px;
     border-radius: 10px;
     border: 7px solid aliceblue;
@@ -100,7 +100,7 @@
 .perguntaCategoria {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
-    text-align: center;
+    text-align: center;         /*Ajuste da pergunta da placa*/
     margin-top: 25px;
     font-size: x-large;
 }
@@ -128,7 +128,7 @@
     width: 35%;
     height: 20px;
     background-color: red;
-    border-radius: 100px;
+    border-radius: 100px; /*Luz vermelha do semáforo*/
     margin-left: 33%;
     margin-top: 10px;
     position: absolute;
@@ -138,7 +138,7 @@
     width: 35%;
     height: 20px;
     background-color: rgb(255, 230, 0);
-    border-radius: 100px;
+    border-radius: 100px; /*Luz amarela do semáforo*/
     margin-left: 33%;
     margin-top: 40px;
     position: absolute;
@@ -148,7 +148,7 @@
     width: 35%;
     height: 20px;
     background-color: rgb(0, 255, 42);
-    border-radius: 100px;
+    border-radius: 100px; /*Luz verde do semáforo*/
     margin-left: 33%;
     margin-top: 70px;
     position: absolute;
@@ -158,7 +158,7 @@
     width: 20px;
     height: 300px;
     background-color: rgb(153, 105, 50);
-    border-radius: 10px;
+    border-radius: 10px; /*Madeira das placas da categorias*/
     margin-left: 50%;
     margin-top: 150px;
 }
@@ -167,62 +167,16 @@
     width: 40%;
     height: 60px;
     background-color: orange;
-    margin-top: -280px;
+    margin-top: -280px;     /*Placa das series iniciais*/
     margin-left: 25%;
     border-radius: 10px;
     position: relative;
 }
-
-.seriesIniciais {
-    margin-left: 20px;
-    position: absolute;
-    margin-top: 10px;
-    color: black;
-    font-weight: bold;
-}
-
-.primeiroQuinto {
-    margin-left: 30px;
-    position: absolute;
-    margin-top: 30px;
-}
-
-
-
-.seriesFinais {
-    margin-left: 20px;
-    position: absolute;
-    margin-top: 10px;
-    color: black;
-    font-weight: bold;
-}
-
-.SextoNono {
-    margin-left: 30px;
-    position: absolute;
-    margin-top: 30px;
-}
-
-
-.ensinoMedio {
-    margin-left: 30px;
-    position: absolute;
-    margin-top: 10px;
-    color: black;
-    font-weight: bold;
-}
-
-.primeiroTerceiro {
-    margin-left: 30px;
-    position: absolute;
-    margin-top: 30px;
-}
-
 .placaAmarela {
     width: 40%;
     height: 60px;
-    background-color: rgb(255, 230, 0);
-    margin-top: 10px;
+    background-color: rgb(255, 230, 0); 
+    margin-top: 10px; /*Placa das series finais*/
     margin-left: 40%;
     border-radius: 10px;
 }
@@ -231,17 +185,61 @@
     width: 40%;
     height: 60px;
     background-color: rgb(115, 255, 0);
-    margin-top: 10px;
+    margin-top: 10px; /*Placa do ensino médio*/
     margin-left: 25%;
     border-radius: 10px;
 }
+.seriesIniciais {
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 10px; /*Ajuste do titulo da placa laranja*/
+    color: black;
+    font-weight: bold;
+}
+
+.primeiroQuinto {
+    margin-left: 30px;
+    position: absolute; /*Ajuste do subtitulo da placa laranja*/
+    margin-top: 30px;
+}
+
+.seriesFinais {
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 10px; /*Ajuste do titulo da placa amarela*/
+    color: black;
+    font-weight: bold;
+}
+
+.SextoNono {
+    margin-left: 30px;
+    position: absolute; /*Ajuste do subtitulo da placa amarela*/
+    margin-top: 30px;
+}
+
+
+.ensinoMedio {
+    margin-left: 30px;
+    position: absolute;/*Ajuste do titulo da placa verde*/
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.primeiroTerceiro {
+    margin-left: 30px;
+    position: absolute; /*Ajuste do subtitulo da placa verde*/
+    margin-top: 30px;
+}
+
+
 
 .placaSenha{
-    background-color: rgb(255, 183, 29);
+    background-color: rgb(255, 191, 53);
     width: 70%;
     height: 200px;
     margin-left: 15%;
-    border-radius: 10px;
+    border-radius: 10px;  /*Estilo da placa da pagina de esqueceu a senha*/
     border: 7px solid aliceblue;
     margin-top: 300px;
     color: aliceblue;
@@ -249,15 +247,15 @@
 }
 
 .senhaEsqueceu{
-    margin-left: 20px;
+    margin-left: 20px; /*Ajuste do título da placa*/
 }
 
 .informeEmail{
-    margin-left: 10px;
+    margin-left: 10px; /*Ajuste do subtítulo da placa*/
 }
 
-.senha{
-    margin-left: 10px;
+.email{
+    margin-left: 10px; /*Ajuste da caixa de texto*/
     width: 85%;
 }
 
@@ -265,7 +263,7 @@
     background-color: rgb(57, 137, 241);
     border-radius: 30px;
     color: aliceblue;
-    width: 50%;
+    width: 50%; /*Botão de enviar o email para recuperação da senha*/
     height: 30px;
     margin-left: 25%;
     margin-top: 10px;
