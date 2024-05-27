@@ -445,7 +445,7 @@
     font-family: 'Cambria';
     margin-top: 40px;
     font-size: x-large;
-}
+} /* Deixar título alinhado no meio da página*/
 
 .nomeCadastro,
 .emailCadastro,
@@ -457,10 +457,10 @@
     display: flex;
     margin-left: 30px;
     font-family: arial;
-}
+} /*Adionar as divs no mesmo css*/
 
 .primeiroNomeCadastro {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     margin-left: 65px;
     margin-top: 15px;
@@ -470,7 +470,7 @@
     font-family: arial;
     font-size: small;
     border-radius: 20px;
-}
+} 
 
 .sobrenomeCadastro {
     display: flex;
@@ -619,11 +619,11 @@
     font-family: cambria;
 }
 
-.textoEnsinoMedio {
+.p2EnsinoMedio {
     font-family: arial;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-}
+} /* */
