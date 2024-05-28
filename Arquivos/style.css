@@ -446,6 +446,7 @@
     font-family: 'Cambria';
     margin-top: 40px;
     font-size: x-large;
+    color: #023859;
 } /* Deixar título alinhado no meio da página*/
 
 .nomeCadastro,
@@ -458,6 +459,7 @@
     display: flex;
     margin-left: 30px;
     font-family: arial;
+    color: #023859;
 } /*Adionar as divs no mesmo css*/
 
 .primeiroNomeCadastro {
@@ -574,7 +576,7 @@
 
 .criarConta {
     margin-top: 70px;
-    background-color: rgb(117, 149, 218);
+    background-color: #023859 ;
     width: 100px;
     height: 30px;
     border-radius: 50px;
@@ -609,6 +611,7 @@
     font-family: Arial;
     font-size: 16px;
     margin-left: 40px;
+    color: white;
 }
 
 .logoPrefeituraEnsinoMedio {
@@ -618,7 +621,8 @@
 .h2EnsinoMedio {
     margin-top: 70px;
     font-family: cambria;
-}
+    color: #023859;
+}/* */
 
 .p2EnsinoMedio {
     font-family: arial;
@@ -627,4 +631,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: #023859;
 } /* */
