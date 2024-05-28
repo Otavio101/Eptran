@@ -274,45 +274,46 @@
     background-color: rgb(68, 144, 206);
 }
 
-.azulclaro {
-    background-color: #bce4fc;
+.azulEscuro {
+    background-color: #023859;
     width: 100%;
     height: 60px;
 }
 
-.p1bemvindo {
+.p1Bemvindo {
     font-size: 16px;
     margin-left: 10px;
     margin-top: 22px;
     font-family: arial;
-
+    color: white;
 }
 
-.p2bemvindo {
+.p2Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 70px;
     font-family: arial;
-
+    color: white;
 }
 
-.p3bemvindo {
+.p3Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
-
+    color: white;
 }
 
 #ta{
     margin-top: 20%;
 }
 
-.p4bemvindo {
+.p4Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
+    color: white;
 }
 
 #ta{
@@ -416,7 +417,7 @@
     margin-top: 50px;
 }
 
-.botaoredondo {
+.botaoRedondo {
     width: 80px;
     height: 80px;
     border-radius: 50%;
