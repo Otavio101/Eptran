@@ -6,7 +6,7 @@
     margin-top: 200px;
 }
 
-.EducaTrânsito {
+.EducaTransito {
     margin-left: 20%;               /*Para o título ficar no meio da placa verde da página de entrar na conta*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -16,17 +16,18 @@
 }
 
 .tituloDaPagina {
-    background-color: rgb(181, 214, 243);
+    background-color: #023859; /*Cor padrão EPTRAN*/
     margin-left: -10px;                 /*Padrão de título das páginas*/
     margin-right: -10px;
     margin-top: -22px;
     height: 50px;
 }
 
-.EducacaoTrânsito {
+.EducacaoTransito {
     margin-left: 10px;
     margin-top: 22px;           /*Ajuste do título das páginas*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
 }
 
 .botaoDeEntrar {
@@ -46,7 +47,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.NãoPossuiConta {
+.NaoPossuiConta {
     color: aliceblue;
     margin-left: 25%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -71,7 +72,6 @@
     margin-left: 10%;
     width: 80%;         /*Caixa de texto da página de entrar na conta*/
     height: 23px;
-    background-color: rgb(90, 233, 90);
 }
 
 .emailSenha {
