@@ -7,7 +7,7 @@
 }
 
 .EducaTransito {
-    margin-left: 20%;               /*Para o título ficar no meio da placa verde da página de entrar na conta*/
+    text-align: center;           /*Para o título ficar no meio da placa verde da página de entrar na conta*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -43,13 +43,13 @@
 
 .esqueceuSenha {
     color: aliceblue;
-    margin-left: 35%;
+    margin-left: 45%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .NaoPossuiConta {
     color: aliceblue;
-    margin-left: 25%;
+    margin-left: 43%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
