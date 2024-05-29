@@ -1,23 +1,27 @@
-.entrar {                                  
+.entrar {
     background-color: rgb(8, 185, 8);
     color: aliceblue;
-    border-radius: 30px;             /*Placa verde da página de entrar na conta */
+    border-radius: 30px;
+    /*Placa verde da página de entrar na conta */
     border: 10px solid aliceblue;
     margin-top: 200px;
 }
 
 .EducaTransito {
-    margin-left: 20%;               /*Para o título ficar no meio da placa verde da página de entrar na conta*/
+    text-align: center;           /*Para o título ficar no meio da placa verde da página de entrar na conta*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .paginaEntrar {
-    background-color: rgb(138, 196, 247); /* Cor de fundo padrão das páginas*/
+    background-color: rgb(138, 196, 247);
+    /* Cor de fundo padrão das páginas*/
 }
 
 .tituloDaPagina {
-    background-color: #023859; /*Cor padrão EPTRAN*/
-    margin-left: -10px;                 /*Padrão de título das páginas*/
+    background-color: #023859;
+    /*Cor padrão EPTRAN*/
+    margin-left: -10px;
+    /*Padrão de título das páginas*/
     margin-right: -10px;
     margin-top: -22px;
     height: 50px;
@@ -25,7 +29,8 @@
 
 .EducacaoTransito {
     margin-left: 10px;
-    margin-top: 22px;           /*Ajuste do título das páginas*/
+    margin-top: 22px;
+    /*Ajuste do título das páginas*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
 }
@@ -35,7 +40,8 @@
     border-radius: 30px;
     color: aliceblue;
     width: 50%;
-    height: 40px;           /*Estilo do botão de entar na conta*/
+    height: 40px;
+    /*Estilo do botão de entar na conta*/
     margin-left: 25%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -43,13 +49,13 @@
 
 .esqueceuSenha {
     color: aliceblue;
-    margin-left: 35%;
+    margin-left: 45%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .NaoPossuiConta {
     color: aliceblue;
-    margin-left: 25%;
+    margin-left: 43%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -70,12 +76,14 @@
 
 .caixaTexto {
     margin-left: 10%;
-    width: 80%;         /*Caixa de texto da página de entrar na conta*/
+    width: 80%;
+    /*Caixa de texto da página de entrar na conta*/
     height: 23px;
 }
 
 .emailSenha {
-    margin-left: 20px;      /*Título de pedido email e de senha*/
+    margin-left: 20px;
+    /*Título de pedido email e de senha*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -91,7 +99,8 @@
     background-color: rgb(7, 160, 7);
     width: 60%;
     height: 120px;
-    margin-left: 22%;       /*Placa que pergunta ao usuário e qual categoria ele se encaixa*/
+    margin-left: 22%;
+    /*Placa que pergunta ao usuário e qual categoria ele se encaixa*/
     margin-top: -60px;
     border-radius: 10px;
     border: 7px solid aliceblue;
@@ -100,7 +109,8 @@
 .perguntaCategoria {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
-    text-align: center;         /*Ajuste da pergunta da placa*/
+    text-align: center;
+    /*Ajuste da pergunta da placa*/
     margin-top: 25px;
     font-size: x-large;
 }
@@ -128,7 +138,8 @@
     width: 35%;
     height: 20px;
     background-color: red;
-    border-radius: 100px; /*Luz vermelha do semáforo*/
+    border-radius: 100px;
+    /*Luz vermelha do semáforo*/
     margin-left: 33%;
     margin-top: 10px;
     position: absolute;
@@ -138,7 +149,8 @@
     width: 35%;
     height: 20px;
     background-color: rgb(255, 230, 0);
-    border-radius: 100px; /*Luz amarela do semáforo*/
+    border-radius: 100px;
+    /*Luz amarela do semáforo*/
     margin-left: 33%;
     margin-top: 40px;
     position: absolute;
@@ -148,7 +160,8 @@
     width: 35%;
     height: 20px;
     background-color: rgb(0, 255, 42);
-    border-radius: 100px; /*Luz verde do semáforo*/
+    border-radius: 100px;
+    /*Luz verde do semáforo*/
     margin-left: 33%;
     margin-top: 70px;
     position: absolute;
@@ -158,7 +171,8 @@
     width: 20px;
     height: 300px;
     background-color: rgb(153, 105, 50);
-    border-radius: 10px; /*Madeira das placas da categorias*/
+    border-radius: 10px;
+    /*Madeira das placas da categorias*/
     margin-left: 50%;
     margin-top: 150px;
 }
@@ -167,16 +181,19 @@
     width: 40%;
     height: 60px;
     background-color: orange;
-    margin-top: -280px;     /*Placa das series iniciais*/
+    margin-top: -280px;
+    /*Placa das series iniciais*/
     margin-left: 25%;
     border-radius: 10px;
     position: relative;
 }
+
 .placaAmarela {
     width: 40%;
     height: 60px;
-    background-color: rgb(255, 230, 0); 
-    margin-top: 10px; /*Placa das series finais*/
+    background-color: rgb(255, 230, 0);
+    margin-top: 10px;
+    /*Placa das series finais*/
     margin-left: 40%;
     border-radius: 10px;
 }
@@ -185,42 +202,49 @@
     width: 40%;
     height: 60px;
     background-color: rgb(115, 255, 0);
-    margin-top: 10px; /*Placa do ensino médio*/
+    margin-top: 10px;
+    /*Placa do ensino médio*/
     margin-left: 25%;
     border-radius: 10px;
 }
+
 .seriesIniciais {
     margin-left: 20px;
     position: absolute;
-    margin-top: 10px; /*Ajuste do titulo da placa laranja*/
+    margin-top: 10px;
+    /*Ajuste do titulo da placa laranja*/
     color: black;
     font-weight: bold;
 }
 
 .primeiroQuinto {
     margin-left: 30px;
-    position: absolute; /*Ajuste do subtitulo da placa laranja*/
+    position: absolute;
+    /*Ajuste do subtitulo da placa laranja*/
     margin-top: 30px;
 }
 
 .seriesFinais {
     margin-left: 20px;
     position: absolute;
-    margin-top: 10px; /*Ajuste do titulo da placa amarela*/
+    margin-top: 10px;
+    /*Ajuste do titulo da placa amarela*/
     color: black;
     font-weight: bold;
 }
 
 .SextoNono {
     margin-left: 30px;
-    position: absolute; /*Ajuste do subtitulo da placa amarela*/
+    position: absolute;
+    /*Ajuste do subtitulo da placa amarela*/
     margin-top: 30px;
 }
 
 
 .ensinoMedio {
     margin-left: 30px;
-    position: absolute;/*Ajuste do titulo da placa verde*/
+    position: absolute;
+    /*Ajuste do titulo da placa verde*/
     margin-top: 10px;
     color: black;
     font-weight: bold;
@@ -228,42 +252,48 @@
 
 .primeiroTerceiro {
     margin-left: 30px;
-    position: absolute; /*Ajuste do subtitulo da placa verde*/
+    position: absolute;
+    /*Ajuste do subtitulo da placa verde*/
     margin-top: 30px;
 }
 
 
 
-.placaSenha{
+.placaSenha {
     background-color: rgb(255, 191, 53);
     width: 70%;
     height: 200px;
     margin-left: 15%;
-    border-radius: 10px;  /*Estilo da placa da pagina de esqueceu a senha*/
+    border-radius: 10px;
+    /*Estilo da placa da pagina de esqueceu a senha*/
     border: 7px solid aliceblue;
     margin-top: 300px;
     color: aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.senhaEsqueceu{
-    margin-left: 20px; /*Ajuste do título da placa*/
+.senhaEsqueceu {
+    margin-left: 20px;
+    /*Ajuste do título da placa*/
 }
 
-.informeEmail{
-    margin-left: 10px; /*Ajuste do subtítulo da placa*/
+.informeEmail {
+    margin-left: 10px;
+    /*Ajuste do subtítulo da placa*/
 }
 
-.email{
-    margin-left: 10px; /*Ajuste da caixa de texto*/
+.email {
+    margin-left: 10px;
+    /*Ajuste da caixa de texto*/
     width: 85%;
 }
 
-.enviar{
+.enviar {
     background-color: rgb(57, 137, 241);
     border-radius: 30px;
     color: aliceblue;
-    width: 50%; /*Botão de enviar o email para recuperação da senha*/
+    width: 50%;
+    /*Botão de enviar o email para recuperação da senha*/
     height: 30px;
     margin-left: 25%;
     margin-top: 10px;
@@ -280,43 +310,47 @@
     height: 60px;
 }
 
-.p1Bemvindo {
+.a1Bemvindo {
     font-size: 16px;
     margin-left: 10px;
     margin-top: 22px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+    text-decoration: none;
 }
 
-.p2Bemvindo {
+.a2Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 70px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
-.p3Bemvindo {
+.a3Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
-#ta{
+#ta {
     margin-top: 20%;
 }
 
-.p4Bemvindo {
+.a4Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
-#ta{
+#ta {
     margin-top: 20%;
 }
 
@@ -333,16 +367,23 @@
 
 .flex {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    height: 60px;
+    width: auto;
 }
-    
-.tituloBemvindo{
+
+.tituloBemvindo {
     color: #23485e;
     font-family: arial;
     font-size: 60px;
     text-align: center;
 }
 
-.tituloEptran2{
+.tituloEptran2 {
     color: #23485e;
     font-family: arial;
     font-size: 60px;
@@ -361,7 +402,7 @@
     margin-left: 30px;
 }
 
-.text{
+.text {
     width: 300px;
     height: 200px;
     text-align: center;
@@ -390,9 +431,10 @@
     margin-left: -20px;
 }
 
-.raposo{
+.raposo {
     width: 60%;
-    transform: rotate(0deg); /* a*/
+    transform: rotate(0deg);
+    /* a*/
     margin-top: 20px;
 }
 
@@ -401,7 +443,7 @@
     margin-top: -90px;
 }
 
-.cone{
+.cone {
     width: 30%;
     margin-left: 260px;
     margin-top: -200px;
@@ -413,7 +455,7 @@
     margin-left: 10px;
 }
 
-.caixaImagem{
+.caixaImagem {
     margin-top: 50px;
 }
 
@@ -447,7 +489,9 @@
     margin-top: 40px;
     font-size: x-large;
     color: #023859;
-} /* Deixar título alinhado no meio da página*/
+}
+
+/* Deixar título alinhado no meio da página*/
 
 .nomeCadastro,
 .emailCadastro,
@@ -460,10 +504,12 @@
     margin-left: 30px;
     font-family: arial;
     color: #023859;
-} /*Adionar as divs no mesmo css*/
+}
+
+/*Adionar as divs no mesmo css*/
 
 .primeiroNomeCadastro {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     margin-left: 65px;
     margin-top: 15px;
@@ -473,7 +519,7 @@
     font-family: arial;
     font-size: small;
     border-radius: 20px;
-} 
+}
 
 .sobrenomeCadastro {
     display: flex;
@@ -576,7 +622,7 @@
 
 .criarConta {
     margin-top: 70px;
-    background-color: #023859 ;
+    background-color: #023859;
     width: 100px;
     height: 30px;
     border-radius: 50px;
@@ -597,7 +643,7 @@
     width: 70px;
 }
 
-.joinvas{
+.joinvas {
     width: 20%;
 
 }
@@ -623,7 +669,7 @@
     margin-top: 70px;
     font-family: cambria;
     color: #023859;
-}/* */
+}
 
 .p2EnsinoMedio {
     font-family: arial;
@@ -635,9 +681,8 @@
     color: #023859;
 } /* */
 
-.flexJogo{
-    display: flex;
-    margin-top: 115%;
+.bodySuporte {
+    background-color: #023859;
 }
 
 .menu{
