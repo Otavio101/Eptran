@@ -280,40 +280,44 @@
     height: 60px;
 }
 
-.p1Bemvindo {
+.a1Bemvindo {
     font-size: 16px;
     margin-left: 10px;
     margin-top: 22px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
-.p2Bemvindo {
+.a2Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 70px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
-.p3Bemvindo {
+.a3Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
 #ta{
     margin-top: 20%;
 }
 
-.p4Bemvindo {
+.a4Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
 #ta{
@@ -333,6 +337,13 @@
 
 .flex {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    height: 60px;
+    width: auto;
 }
     
 .tituloBemvindo{
