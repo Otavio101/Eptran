@@ -323,7 +323,7 @@
 .bodyBemvindo,
 .bodyEnsinoMedio,
 .bodypaginajogo1 {
-    background-color: #a0d5fb;
+    background-color: #f5f5f5;
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
@@ -599,6 +599,7 @@
 
 .joinvas{
     width: 20%;
+    
 }
 
 
@@ -633,3 +634,12 @@
     text-align: center;
     color: #023859;
 } /* */
+
+.flexJogo{
+    display: flex;
+    margin-top: 115%;
+}
+
+.menu{
+    font-size: 150%;
+}
