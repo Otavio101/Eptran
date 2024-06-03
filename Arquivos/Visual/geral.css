@@ -643,7 +643,7 @@
     width: 70px;
 }
 
-.joinvas {
+.logodaprefeiturapaginadojogo {
     width: 20%;
 
 }
@@ -685,34 +685,8 @@
     background-color: #023859;
 }
 
-.menu{
-    font-size: 150%;
-}
 
-.imagemplaca{
-    width: 100%;
-    margin-top: -10px;
-    
-}
 
-.divpa{
-    width: 20%;
-}
-
-.imagemjovem{
-    width: 50%;
-    margin-top: -7px;
-    margin-left: 5px;
-}
-.divpa1{
-    width: 30%;
-    height: 10%;
-}
-
-.imagemengrenagem{
-    width: 45%;
-    margin-top: -17px;    
-}
 
 .tituloSuporte {
     font-family: cambria;
