@@ -8,8 +8,7 @@
 }
 
 .EducaTransito {
-    margin-left: 20%;
-    /*Para o título ficar no meio da placa verde da página de entrar na conta*/
+    text-align: center;           /*Para o título ficar no meio da placa verde da página de entrar na conta*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -50,13 +49,13 @@
 
 .esqueceuSenha {
     color: aliceblue;
-    margin-left: 35%;
+    margin-left: 45%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .NaoPossuiConta {
     color: aliceblue;
-    margin-left: 25%;
+    margin-left: 43%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -311,40 +310,44 @@
     height: 60px;
 }
 
-.p1Bemvindo {
+.a1Bemvindo {
     font-size: 16px;
     margin-left: 10px;
     margin-top: 22px;
-    font-family: arial;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+    text-decoration: none;
 }
 
-.p2Bemvindo {
+.a2Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 70px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
-.p3Bemvindo {
+.a3Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
 #ta {
     margin-top: 20%;
 }
 
-.p4Bemvindo {
+.a4Bemvindo {
     font-size: 16px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: arial;
     color: white;
+    text-decoration: none;
 }
 
 #ta {
@@ -364,6 +367,13 @@
 
 .flex {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    height: 60px;
+    width: auto;
 }
 
 .tituloBemvindo {
@@ -635,7 +645,7 @@
 
 .joinvas {
     width: 20%;
-    
+
 }
 
 
@@ -675,95 +685,34 @@
     background-color: #023859;
 }
 
-.tituloSuporte {
-    font-family: cambria;
-    text-align: center;
-    font-size: x-large;
-    color: #023859;
-    margin-top: 30px;
+.menu{
+    font-size: 150%;
 }
 
-.suporte {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
+.imagemplaca{
+    width: 100%;
+    margin-top: -10px;
+    
+}
+
+.divpa{
+    width: 20%;
+}
+
+.imagemjovem{
     width: 50%;
-    height: 50%;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    box-shadow: 0px 0px 120px rgba(255, 255, 255, 1);
-    text-align: center;
+    margin-top: -7px;
+    margin-left: 5px;
+}
+.divpa1{
+    width: 30%;
+    height: 10%;
 }
 
-.nomeSuporte, .emailSuporte, .mensagemSuporte{
-    text-align: center;
-    margin-top: 15px;
-}
-
-.caixaNomeSuporte, .caixaEmailSuporte {
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 180px;
-    height: 30px;
-    padding-left: 10px;
-    background-color: #023859;
-    color: white;
-    border: none;
-}
-.caixaNomeSuporte::placeholder{
-    color: white;
-}
-
-.caixaEmailSuporte::placeholder{
-    color: white;
-}
-
-.caixaMensagemSuporte{
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 180px;
-    height: 200px;
-    background-color: #023859;
-    color: white; 
-    resize: none;
-    font-family: arial;
-    border: none;
-}
-
-.caixaMensagemSuporte::placeholder{
-    color: white;
-}
-.mensagemSuporte textarea {
-    padding-top: 10px;
-    padding-left: 10px; 
-}
-.enviarSuporte{
-    margin-top: 20px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-width: 1px;
-    border: none;
-    background-color: #023859;
-    color: white;
-    width: 80px;
-    height: 30px;
-    cursor: pointer;
-    transition: box-shadow 0.3s ease;
-    box-shadow: 0px 4px 6p #023859;
-}
-
-.enviarSuporte:hover {
-    box-shadow: 0px 8px 12px #023859;
+.imagemengrenagem{
+    width: 45%;
+    margin-top: -17px;
+    
 }
 
 .voltarPaginaSuporte{
@@ -787,4 +736,4 @@
 
 .voltarPaginaSuporte:hover {
     box-shadow: 0px 4px 12px white;
-}/* */
+}
