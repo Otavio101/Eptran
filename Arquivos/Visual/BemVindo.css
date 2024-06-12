@@ -13,3 +13,22 @@
     width: 800px;
     position: fixed;
 }
+
+.botaoLogin{
+    margin-top: 84px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 40%;
+    background-color: rgb(255, 220, 19);
+    border: 4px;
+    border-color: rgb(201, 203, 207);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 20px;
+}
+
+.Loginbotao{
+    text-decoration: none;
+}

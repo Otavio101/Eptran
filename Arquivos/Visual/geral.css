@@ -431,7 +431,7 @@
     margin-left: -20px;
 }
 
-.raposo {
+.raposoPare {
     width: 60%;
     transform: rotate(0deg);
     /* a*/
@@ -457,21 +457,6 @@
 
 .caixaImagem {
     margin-top: 50px;
-}
-
-.botaoRedondo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: a0d5fb;
-    border: 5px solid black;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.3s ease;
-    margin-top: 100px;
 }
 
 .img3 {
