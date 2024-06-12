@@ -1,0 +1,57 @@
+.bodyFacaLogin {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.facaLogin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.balaoFala {
+    position: relative;
+    background: white;
+    border: 2px solid black;
+    border-radius: .4em;
+    padding: 1em;
+    color: black;
+    width: 200px;
+    height: 125px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+
+.balaoFala::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 10px);
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    border-top-color: black;
+}
+
+.botaoFacaLogin {
+    font-family: arial;
+    background-color: #023859;
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.raposoSeguranca {
+    position: relative;
+    width: 250px;
+    height: auto;
+}
