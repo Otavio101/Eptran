@@ -13,7 +13,7 @@
     /*Placa que pergunta ao usuário e qual categoria ele se encaixa*/
     margin-top: -60px;
     border-radius: 10px;
-    border: 7px solid aliceblue;
+    border: 7px solid rgb(201, 203, 207);
 }
 
 .perguntaCategoria {
