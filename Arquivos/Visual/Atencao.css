@@ -1,0 +1,33 @@
+.imagem1{
+    width: 70%;
+    height: auto;
+}
+
+.imagem2{
+    width: 40%;
+}
+
+.divimg{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.texto{
+    position: absolute;
+    width: 60%;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.divimg2{
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
