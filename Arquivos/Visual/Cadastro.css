@@ -1,24 +1,40 @@
-.paginaCadastro {
-    text-align: center;
-    font-family: 'Cambria';
-    margin-top: 40px;
-    font-size: x-large;
-    color: #023859;
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-/* Deixar título alinhado no meio da página*/
+.cadastro {
+    background-color: rgb(60, 103, 167);
+    width: 95%;
+    color: white;
+    border: 10px solid rgb(184, 183, 183);
+    border-radius: 10%;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.tituloCadastro {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
 .nomeCadastro,
 .emailCadastro,
 .senhaCadastro,
+.confirmeCadastro,
 .telefoneCadastro,
 .enderecoCadastro,
 .generoCadastro,
 .dataNascimentoCadastro {
     display: flex;
     margin-left: 30px;
-    font-family: arial;
-    color: #023859;
+    font-family: system-ui;
+    color: white
 }
 
 /*Adionar as divs no mesmo css*/
@@ -30,7 +46,7 @@
     margin-top: 15px;
     width: 90px;
     height: auto;
-    color: rgb(173, 172, 172);
+    color: white;
     font-family: arial;
     font-size: small;
     border-radius: 20px;
@@ -43,7 +59,7 @@
     margin-top: 15px;
     width: 90px;
     height: auto;
-    color: rgb(173, 172, 172);
+    color: white;
     font-family: arial;
     font-size: small;
 }
@@ -66,36 +82,23 @@
     height: auto;
 }
 
-
-.caixaTelefoneCadastro {
-    margin-left: 20px;
+.caixaConfirmeSenha {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
-    width: 225px;
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 160px;
     height: auto;
-}
-
-.codigoTelefoneCadastro {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-top: 15px;
-    width: 40px;
-    height: auto;
-    color: rgb(173, 172, 172);
-    font-family: arial;
-    font-size: small;
 }
 
 .numeroTelefoneCadastro {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin-top: 15px;
+    margin-left: 45px;
+    margin-top: 10px;
     width: 120px;
     height: auto;
-    color: rgb(173, 172, 172);
+    color: white;
     font-family: arial;
     font-size: small;
 }
@@ -107,7 +110,7 @@
     margin-top: 15px;
     width: 120px;
     height: auto;
-    color: rgb(173, 172, 172);
+    color: white;
     font-family: arial;
     font-size: small;
 }
@@ -116,44 +119,38 @@
     margin-left: 55px;
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 20px;
     width: 135px;
     height: auto;
 }
 
-.dia,
-.mes,
-.ano {
+.caixaDataCadastro{
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
-    margin-top: 15px;
-    width: 30px;
-    height: auto;
-    color: rgb(173, 172, 172);
-    font-family: arial;
-    font-size: small;
-}
-
-.criarConta {
-    margin-top: 70px;
-    background-color: #023859;
+    margin-top: 25px;
     width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: box-shadow 0.3s ease;
-    box-shadow: 0px 4px 6p rgba(0, 0, 0, 0.1);
+    height: auto; 
 }
 
-.criarConta:hover {
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.6);
+.criarConta{
+    background-color: rgb(57, 137, 241);
+    border: 0px;
+    border-radius: 30px;
+    color: aliceblue;
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
 }
 
-
-.logoPrefeitura img {
-    margin-top: 100px;
-    width: 70px;
+.ferroCadastro{
+    background-color: rgb(200, 200, 200);
+    width: 5%;
+    height: 10%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    text-align: center;
 }
+
