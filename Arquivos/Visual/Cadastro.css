@@ -1,0 +1,156 @@
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cadastro {
+    background-color: rgb(60, 103, 167);
+    width: 95%;
+    color: white;
+    border: 10px solid rgb(184, 183, 183);
+    border-radius: 10%;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.tituloCadastro {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.nomeCadastro,
+.emailCadastro,
+.senhaCadastro,
+.confirmeCadastro,
+.telefoneCadastro,
+.enderecoCadastro,
+.generoCadastro,
+.dataNascimentoCadastro {
+    display: flex;
+    margin-left: 30px;
+    font-family: system-ui;
+    color: white
+}
+
+/*Adionar as divs no mesmo css*/
+
+.primeiroNomeCadastro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+    margin-top: 15px;
+    width: 90px;
+    height: auto;
+    color: white;
+    font-family: arial;
+    font-size: small;
+    border-radius: 20px;
+}
+
+.sobrenomeCadastro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 90px;
+    height: auto;
+    color: white;
+    font-family: arial;
+    font-size: small;
+}
+
+.caixaEmailCadastro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 160px;
+    height: auto;
+}
+
+.caixaSenhaCadastro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+    margin-top: 15px;
+    width: 160px;
+    height: auto;
+}
+
+.caixaConfirmeSenha {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 160px;
+    height: auto;
+}
+
+.numeroTelefoneCadastro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 10px;
+    width: 120px;
+    height: auto;
+    color: white;
+    font-family: arial;
+    font-size: small;
+}
+
+.caixaEnderecoCadastro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 120px;
+    height: auto;
+    color: white;
+    font-family: arial;
+    font-size: small;
+}
+
+.caixaGeneroCadastro {
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 135px;
+    height: auto;
+}
+
+.caixaDataCadastro{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 100px;
+    height: auto; 
+}
+
+.criarConta{
+    background-color: rgb(57, 137, 241);
+    border: 0px;
+    border-radius: 30px;
+    color: aliceblue;
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.ferroCadastro{
+    background-color: rgb(200, 200, 200);
+    width: 5%;
+    height: 10%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    text-align: center;
+}
+
